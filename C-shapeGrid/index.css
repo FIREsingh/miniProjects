@@ -1,0 +1,11 @@
+.cont {
+  display: grid;
+  width: 40%;
+  height: 30%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  gap: 10px;
+}
+.box {
+  border: 3px solid red;
+}
